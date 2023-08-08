@@ -1,0 +1,53 @@
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: black;
+    padding: 15px;
+}
+nav#menu h1{
+    display: none;
+}
+/*Cor de fundo no body temporário
+##################################*/
+body{
+    background-color: rgb(20, 220, 163);
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding-top:90px;
+    margin: 0px;
+    position: relative;
+    top: -10px;
+}
+img{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+}
+h2{
+    text-align: center;
+}
+
+nav#menu a:link{
+  text-decoration: none;
+  color: black;
+  font-family: Verdana;
+  font-weight: bold;
+  transition: all 0.8s ease;
+}
+nav#menu a:visited{
+    color:white;
+}
+nav#menu a:hover{
+    color:  rgb(20, 220, 163);
+}
+
